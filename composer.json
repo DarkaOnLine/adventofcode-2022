@@ -1,0 +1,20 @@
+{
+    "name": "darkaonline/adventofcode-2022",
+    "description": "https://adventofcode.com/2022/about",
+    "autoload": {
+        "psr-4": {
+            "DarkaOnLine\\AdventOfCode2022\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darius Matulionis",
+            "email": "darius@matulionis.lt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/var-dumper": "6.3.x-dev",
+        "symfony/console": "6.3.x-dev"
+    }
+}
